@@ -1,0 +1,70 @@
+*{
+    margin:0
+  
+}
+body{
+    background-color:rgb(179, 180, 187);
+}
+
+nav {
+    margin: auto;
+    display: block;
+    position: fixed;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav a {  
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#welcome-section {
+
+    height: 100vh;
+   
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg");
+    color:white;
+    
+}
+
+.social-media{
+    padding:20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div-welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:300px;
+
+
+}
+#profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+#projects{
+
+}
+
+@media only screen and (max-width: 600px) {
+    #welcome-section {
+        background-color: blue;
+    }
+}
+
